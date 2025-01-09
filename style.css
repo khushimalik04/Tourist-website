@@ -1,0 +1,152 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+/* Header Styles */
+header {
+    background-color: #2d3a3b;
+    color: white;
+    padding: 20px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('adventure.jfif'); 
+    background-size: cover;
+    background-position: center; 
+    height: 400px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+.hero-text h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.hero-text p {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.cta-btn {
+    padding: 12px 30px;
+    background-color: #ff6347;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.cta-btn:hover {
+    background-color: #e5533b;
+}
+
+/* Destinations Section */
+.destinations {
+    background-color: white;
+    padding: 40px 0;
+    margin: 0; /* Remove margin from the section to avoid additional space around */
+}
+
+.destinations h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.container {
+    width: 80%; /* Set the width of the container (you can adjust this to your liking) */
+    margin: 0 auto; /* This will center the container horizontally */
+    text-align: center; /* Center the text */
+}
+
+/* Table Layout */
+table {
+    width: 100%; /* Ensure the table takes up the full width of the container */
+    border-spacing: 20px; /* Space between table cells */
+    margin: 0 auto; /* This ensures the table is centered horizontally */
+    border-collapse: separate; /* Keep separate spacing between cells */
+}
+
+.destination-card {
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: white;
+}
+
+.destination-card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.destination-card h3 {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.destination-card p {
+    font-size: 16px;
+    color: #666;
+    padding: 0 15px 20px;
+}
+
+
+/* Footer Styles */
+footer {
+    background-color: #2d3a3b;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    font-size: 16px;
+}
